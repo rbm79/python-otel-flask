@@ -28,7 +28,7 @@ INSTALL OTEL BOOTSTRAP - This will install Flask instrumentation
 opentelemetry-bootstrap -a install
 
 CHECK VARS
-(.venv) PS C:\Users\rober\Downloads\testes\python-otel> Get-ChildItem 
+(.venv) PS C:\Users\rober\Downloads\testes\python-otel> Get-ChildItem Env:OTEL*
 
 EXPORT VARS
 $env:OTEL_EXPORTER_OTLP_ENDPOINT="https://otlp.nr-data.net:4317"
